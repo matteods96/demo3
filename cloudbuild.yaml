@@ -7,7 +7,7 @@ steps:
     '-t',
     'us-west2-docker.pkg.dev/$PROJECT_ID/my-container-registry/my-image',
     '-f',
-    'Dockerfile>'
+    'Dockerfile'
   ]
 - name: 'gcr.io/cloud-builders/docker'
   id: 'Push container image'
